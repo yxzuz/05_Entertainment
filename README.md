@@ -36,9 +36,11 @@ lecture 5/
 ## Quick Start with Docker (Recommended)
 
 ### Prerequisites
+
 - Docker and Docker Compose installed
 
 ### Run the Full Application
+
 ```bash
 # Clone the repository
 git clone https://github.com/yxzuz/05_Entertainment.git
@@ -49,6 +51,7 @@ docker-compose up --build
 ```
 
 **Service URLs:**
+
 - Frontend: http://localhost:3000
 - Backend API: http://localhost:5000
 
@@ -108,6 +111,7 @@ docker-compose down
 ```
 
 **Architecture:**
+
 - **Backend**: Python Flask API (port 5000)
 - **Frontend**: Next.js development server (port 3000)
 - **Networking**: Services communicate via Docker network
